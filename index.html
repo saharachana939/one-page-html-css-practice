@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webpage Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <h1 class="logo">CryptoNews</h1>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Address</a></li>
+      </ul>
+      <form class="search" action="/search" method="get" role="search">
+        <label for="site-search" class="sr-only">Search</label>
+        <input type="search" id="site-search" name="q" placeholder="Type to search">
+        <button type="submit" class="btn">Search</button>
+      </form>
+    </nav>
+
+    <!-- Responsive, perfectly-fitted hero image -->
+    <div class="hero-media" role="img" aria-label="Hero illustration">
+      <img
+        src="ktm.com/image.1.jpg"
+        srcset="
+          ktm.com/image.1.jpg   800w,
+          ktm.com/image.1.jpg 1200w,
+          ktm.com/image.1.jpg 1600w,
+          ktm.com/image.1.jpg 2000w"
+        sizes="100vw"
+        alt="Hero illustration"
+        width="2000" height="900"
+        loading="eager" decoding="async">
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="hero">
+      <h2>Web Design & <span>Development</span> Course</h2>
+      <p class="par">Learn modern UI, accessibility, and responsive layouts with semantic HTML and CSS.</p>
+      <a class="cn" href="#signup">Join Us</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+
+  </footer>
+</body>
+</html>
